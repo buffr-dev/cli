@@ -9,3 +9,5 @@ This is a repo with a sample docker compose file for using S3 on your local mach
    - a) Download the minio image if needed
    - b) Startup a minio container
    - c) Create a bucket using the given .env variables
+
+**Note**: This configuration uses a file-backed s3 store. All uploaded files will be persisted to a minio-data folder. To save disk space, you can delete this when finished. Otherwise, the files will be available for you when you restart the container.
