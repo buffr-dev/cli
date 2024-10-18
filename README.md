@@ -1,5 +1,7 @@
 This is a repo with a sample docker compose file for using S3 on your local machine. Save on AWS costs and do not hook up to production when you're just developing!
 
+The intent is to turn this into an actual CLI program, but for now, this does the trick!
+
 # Usage
 
 1) Install Docker CLI
